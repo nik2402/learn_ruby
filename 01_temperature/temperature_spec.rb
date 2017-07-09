@@ -42,6 +42,7 @@ describe "temperature conversion functions" do
   describe "#ctof" do
 
     it "converts freezing temperature" do
+
       expect(ctof(0)).to eq(32)
     end
 
